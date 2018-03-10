@@ -3,8 +3,9 @@ module.exports = {
   stripPrefix: 'wwwroot',
   root: 'wwwroot/',
   staticFileGlobs: [
-    'dist/index.html',
-    'dist/**.js',
-    'dist/**.css'
+    'wwwroot/index.html',
+    'wwwroot/**.js',
+    'wwwroot/**.css',
+    'wwwroot/icon.png'
   ]
 };

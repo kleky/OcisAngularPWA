@@ -8,7 +8,13 @@ API:
 C:\Users\kleki\Source\Repos\OcisAngular\WebApp>dotnet watch run
 
 App:
-C:\Users\kleki\Source\Repos\OcisAngular\WebApp>ng serve --proxy-config proxy.config.json
+OLD - C:\Users\kleki\Source\Repos\OcisAngular\WebApp>ng serve --proxy-config proxy.config.json
+
+NEW-
+As were building service worker with sw-precache, run app using:
+  1: ng build --prod
+  2: npm run sw 
+  3: npm run static-serve
 
 This proxy contains the url of the API
 
